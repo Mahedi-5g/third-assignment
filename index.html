@@ -39,472 +39,543 @@
 
 </head>
 
-<body class="font-manrope bg-white sm: mt-0 mb-0 ml-0 mr-0 lg: mt-14 mb-24  ml-24 mr-24">
-    <header class="container">
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
+<body class="font-manrope ">
+    <div class="bg-white  lg: mt-14 mb-24  ml-24 mr-24">
+        <!--header-section-->
+        <header class="container">
+            <nav>
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
 
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Home</a></li>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><a>Home</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Pages</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>Contact</a></li>
+                            </ul>
+                        </div>
+                        <a class="font-extrabold text-3xl">Hockey<span class="text-red-500">’</span>s</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex font-normal text-base ">
+                        <ul class="menu menu-horizontal px-1">
+                            <li><a class="text-red-500">Home</a></li>
                             <li><a>About</a></li>
                             <li><a>Pages</a></li>
                             <li><a>Blog</a></li>
                             <li><a>Contact</a></li>
                         </ul>
+
                     </div>
-                    <a class="font-extrabold text-3xl">Hockey<span class="text-red-500">’</span>s</a>
-                </div>
-                <div class="navbar-center hidden lg:flex font-normal text-base ">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a class="text-red-500">Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact</a></li>
-                    </ul>
 
+                    <div class="navbar-end gap-4">
+                        <div class=" hidden lg:flex "><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <a class="btn bg-red-500 text-white text-xl font-extrabold">Get Ticket</a>
+                    </div>
+                </div>
+            </nav>
+            <!--banner-section-->
+            <section>
+                <div class="carousel w-full mt-14 relative">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="Images/2.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div
+                        style="width: 50%;background: black;position: absolute; bottom: 4%;right: 2%;padding: 28px; border-radius: 14px;">
+                        <h4 class="text-white font-extrabold text-2xl">Meet all the heroes from the field</h4>
+                        <p class="text-slate-400 text-base font-medium">Hockey is a term used to denote a family of
+                            various
+                            types of both summer
+                            and winter team sports which originated on either an outdoor field</p>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <!--professional-section-->
+            <section class="mt-11">
+                <div class="text-center mb-10">
+                    <h2 class="mb-3 sm:font-extrabold text-2xl lg:font-extrabold text-3xl">Professional Hockeys Club
+                    </h2>
+                    <p class="text-base font-medium">Hockey is a term used to denote a family of various types of both
+                        summer and winter team sports</p>
+                </div>
+                <div class="flex grid grid-cols-1 lg:grid-cols-4 text-center">
+                    <div>
+                        <div class="radial-progress text-primary text-red-500 mb-6" style="--value:87;"
+                            role="progressbar">
+                            <span class="text-black">87%</span>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-2">Prayer Facility</h4>
+                        <p class="font-normal text-base mb-10">Some games make the use of skates.</p>
+                    </div>
+                    <div>
+                        <div class="radial-progress text-primary text-lime-500 mb-6" style="--value:95;"
+                            role="progressbar">
+                            <span class="text-black">95%</span>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-2">Experienced Coach</h4>
+                        <p class="font-normal text-base mb-10">Two notable exceptions use a straight stick.</p>
+                    </div>
+                    <div>
+                        <div class="radial-progress text-primary text-yellow-500 mb-6" style="--value:90;"
+                            role="progressbar"><span class="text-black">90%</span></div>
+                        <h4 class="text-xl font-semibold mb-2">Senior Player</h4>
+                        <p class="font-normal text-base mb-10">Our team have many senior player.</p>
+                    </div>
+                    <div>
+                        <div class="radial-progress text-primary text-blue-500 mb-6" style="--value:80;"
+                            role="progressbar">
+                            <span class="text-black">80%</span>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-2">Training Ground</h4>
+                        <p class="font-normal text-base mb-10">The word hockey itself is of unknown origin.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--programme-section-->
+            <section class="text-center mt-14">
+                <div class="mb-10">
+                    <h2 class="mb-3 font-extrabold text-3xl">Program Sections</h2>
+                    <p class="text-base font-medium">Hockey is a term used to denote a family of various types of both
+                        summer and winter team sports.
+                    </p>
+                </div>
+                <div>
+                    <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4 rounded-2xl">
+                        <div class="hero  " style="background-image: url(Images/2.png);">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-start text-neutral-content">
+                                <div class="max-w-md">
+                                    <h1 class="mb-5 mt-14 text-3xl font-bold">Junior Program</h1>
+                                    <p class="mb-5">Hockey is a term used to denote a family of various
+                                        types of both summer
+                                        and winter team sports which originated on either an outdoor field</p>
+                                    <button
+                                        class="btn btn-primary mb-5 bg-red-500 border-none text-xl font-bold">Register
+                                        Now!</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero rounded-3xl " style="background-image: url(Images/3.png); ">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-start text-neutral-content">
+                                <div class="max-w-md">
+                                    <h1 class="mb-5 mt-14 text-3xl font-bold">Teenager Program</h1>
+                                    <p class="mb-5">Hockey is a term used to denote a family of various
+                                        types of both summer
+                                        and winter team sports which originated on either an outdoor field</p>
+                                    <button
+                                        class="btn btn-primary mb-5 bg-red-500 border-none text-xl font-bold">Register
+                                        Now!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="hero h-full w-full" style="background-image: url(Images/4.png);">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-start text-neutral-content">
+                                <div>
+                                    <h1 class="mb-5 mt-14 text-3xl font-bold">Professional Program</h1>
+                                    <p class="mb-5 w-2/4">Hockey is a term used to denote a family of various
+                                        types of both summer
+                                        and winter team sports which originated on either an outdoor field</p>
+                                    <button
+                                        class="btn btn-primary mb-5 bg-red-500 border-none text-xl font-bold">Register
+                                        Now!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="navbar-end gap-4">
-                    <div class=" hidden lg:flex "><i class="fa-solid fa-magnifying-glass"></i></div>
-                    <a class="btn bg-red-500 text-white text-xl font-extrabold">Get Ticket</a>
+            </section>
+
+            <!--our products-->
+            <section class="mt-28 mb-14">
+                <div class="mb-10 text-center">
+                    <h2 class="mb-3 font-extrabold text-3xl">Our New Products</h2>
+                    <p class="text-base font-medium">Hockey is a term used to denote a family of various types of both
+                        summer and winter team sports.
+                    </p>
                 </div>
+                <div class=" grid grid-cols-1 lg:grid-cols-2">
+
+                    <div class="hero  bg-base-200">
+                        <div class="hero-content flex-col lg:flex-row">
+                            <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+                            <div>
+                                <div class="flex gap-4">
+                                    <i class="fa-solid fa-star text-orange-500"></i>
+                                    <h5>5.0</h5>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <h5>20</h5>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h5>200</h5>
+                                </div>
+                                <h3 class="font-extrabold text-xl">World Cup Football Jacket
+                                </h3>
+                                <p class="py-3">Hockey is a term used to denote a family</p>
+                                <div class="flex gap-4">
+                                    <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
+                                    <p>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Delivery Fee : Free
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero  bg-base-200">
+                        <div class="hero-content flex-col lg:flex-row">
+                            <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
+                            <div>
+                                <div class="flex gap-4">
+                                    <i class="fa-solid fa-star text-orange-500"></i>
+                                    <h5>5.0</h5>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <h5>20</h5>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h5>200</h5>
+                                </div>
+                                <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
+                                <p class="py-3">Hockey is a term used to denote a family</p>
+                                <div class="flex gap-4">
+                                    <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
+                                    <p>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Delivery Fee : Free
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero  bg-base-200">
+                        <div class="hero-content flex-col lg:flex-row">
+                            <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
+                            <div>
+                                <div class="flex gap-4">
+                                    <i class="fa-solid fa-star text-orange-500"></i>
+                                    <h5>5.0</h5>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <h5>20</h5>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h5>200</h5>
+                                </div>
+                                <h3 class="font-extrabold text-xl">Cap For World Cup</h3>
+                                <p class="py-3">Hockey is a term used to denote a family</p>
+                                <div class="flex gap-4">
+                                    <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
+                                    <p>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Delivery Fee : Free
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero  bg-base-200">
+                        <div class="hero-content flex-col lg:flex-row">
+                            <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
+                            <div>
+                                <div class="flex gap-4">
+                                    <i class="fa-solid fa-star text-orange-500"></i>
+                                    <h5>5.0</h5>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <h5>20</h5>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h5>200</h5>
+                                </div>
+                                <h3 class="font-extrabold text-xl">Jursey For World Cup </h3>
+                                <p class="py-3">Hockey is a term used to denote a family</p>
+                                <div class="flex gap-4">
+                                    <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
+                                    <p>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Delivery Fee : Free
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero bg-base-200">
+                        <div class="hero-content flex-col lg:flex-row">
+                            <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
+                            <div>
+                                <div class="flex gap-4">
+                                    <i class="fa-solid fa-star text-orange-500"></i>
+                                    <h5>5.0</h5>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <h5>20</h5>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h5>200</h5>
+                                </div>
+                                <h3 class="font-extrabold text-xl">Helmate For world Cup</h3>
+                                <p class="py-3">Hockey is a term used to denote a family</p>
+                                <div class="flex gap-4">
+                                    <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
+                                    <p>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Delivery Fee : Free
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero  bg-base-200">
+                        <div class="hero-content flex-col lg:flex-row">
+                            <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+                            <div>
+                                <div class="flex gap-4">
+                                    <i class="fa-solid fa-star text-orange-500"></i>
+                                    <h5>5.0</h5>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <h5>20</h5>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <h5>200</h5>
+                                </div>
+                                <h3 class="font-extrabold text-xl">Football For World Cup</h3>
+                                <p class="py-3">Hockey is a term used to denote a family</p>
+                                <div class="flex gap-4">
+                                    <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
+                                    <p>
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Delivery Fee : Free
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--Clients Question-->
+            <section class="mt-28 mb-28">
+                <div class="mb-10 text-center">
+                    <h2 class="mb-3 font-extrabold text-3xl">Clients Question</h2>
+                    <p class="text-base font-medium">Ask your clients these essential questions to create the best
+                        possible
+                        content for their SEO and content marketing campaigns.
+                    </p>
+                </div>
+                <div class="hero min-h-screen bg-white">
+                    <div class="hero-content flex-col lg:flex-row">
+                        <img src="Images/11.png" class=" rounded-lg shadow-2xl" />
+                        <div>
+                            <div class="collapse collapse-plus bg-white">
+                                <input type="radio" name="my-accordion-3" checked="checked" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Our Equipment
+                                </div>
+                                <div class="collapse-content text-base font-normal">
+                                    <p>Hockey is a term used to denote a family of various
+                                        types of both summer
+                                        and winter</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus bg-white">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Hockey Training
+                                </div>
+                                <div class="collapse-content">
+                                    <p>Hockey is a term used to denote a family of various
+                                        types of both summer
+                                        and winter</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus bg-white">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Private Lessons
+                                </div>
+                                <div class="collapse-content">
+                                    <p>Hockey is a term used to denote a family of various
+                                        types of both summer
+                                        and winter</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus bg-white">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Ski Touring
+                                </div>
+                                <div class="collapse-content">
+                                    <p>Hockey is a term used to denote a family of various
+                                        types of both summer
+                                        and winter</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus bg-white">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Booking
+                                </div>
+                                <div class="collapse-content">
+                                    <p>Hockey is a term used to denote a family of various
+                                        types of both summer
+                                        and winter</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus bg-white">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl font-bold">
+                                    Pricings
+                                </div>
+                                <div class="collapse-content">
+                                    <p>Hockey is a term used to denote a family of various
+                                        types of both summer
+                                        and winter</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--get-in-touch-section-->
+
+            <section>
+                <div class="text-center mb-14">
+                    <h2 class="mb-3 font-extrabold text-3xl">Get In Touch</h2>
+                    <p class="text-base font-medium">Hockey is a term used to denote a family of various types of both
+                        summer and winter team sports.
+                    </p>
+                </div>
+                <div class="gap-7 grid grid-cols-1 lg:grid-cols-3">
+                    <div>
+                        <div class="bg-lime-50 p-6 mb-4 rounded-lg">
+                            <img src="Images/Group 1171275317.png" alt="">
+                            <p class="mt-1">Phone Number:</p>
+                            <h5 class="font-semibold mt-1">(+088) 938-752-164</h5>
+                        </div>
+                        <div class="bg-amber-50 p-6 mb-4 rounded-lg">
+                            <img src="Images/Group 1171275318.png" alt="">
+                            <p class="mt-1">Email:</p>
+                            <h5 class="font-semibold mt-1">hockeys@support.com</h5>
+                        </div>
+                        <div class="bg-cyan-50 p-6 rounded-lg ">
+                            <img src="Images/Group 1171275321.png" alt="">
+                            <p class="mt-1">Location:</p>
+                            <h5 class="font-semibold mt-1">152/Mohakhali Wirless Gate</h5>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-2">
+                        <div class="grid gap-3 grid-cols-1 lg:grid-cols-2">
+                            <div>
+                                <label class="font-bold">Your Name</label>
+                                <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
+                            </div>
+                            <div>
+                                <label class="font-bold">Your Email</label>
+                                <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
+                            </div>
+                            <div>
+                                <label class="font-bold">Subject</label>
+                                <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
+                            </div>
+                            <div>
+                                <label class="font-bold">Phone Number</label>
+                                <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
+                            </div>
+
+
+                        </div>
+                        <div class="mt-4">
+                            <label class="font-bold">Massage</label>
+                            <textarea class="w-full mt-2  textarea textarea-bordered" placeholder="Bio"
+                                rows="7"></textarea>
+                        </div>
+                        <button class="btn bg-red-500 mt-3 text-white w-full">Send Massage</button>
+
+                    </div>
+                </div>
+            </section>
+            <!--Social-media-section-->
+            <section class="mt-20 mb-24 text-center bg-slate-100 pt-8 pb-8 ">
+                <h3 class="font-extrabold text-2xl mb-4">Social Media</h3>
+                <div class="space-x-6 text-2xl">
+                    <i class="fa-brands fa-twitter "></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-figma"></i>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!--footer-section-->
+
+    <footer class="footer pt-24 pl-24 pb-24   text-base-content bg-black ">
+        <aside>
+            <h3 class="text-2xl font-extrabold text-white">Get In Touch</h3>
+            <p class="text-base font-medium text-slate-300">Hockey is a term used to<br>denote a family of various
+                types<br>of both summer
+                and winter</p>
+            <div class="flex mt-3 text-base font-medium text-slate-300">
+                <i class="fa-regular fa-envelope text-red-600 pr-2"></i>
+                <p>hockeys@support.com</p>
+            </div>
+            <div class="flex text-base font-medium text-slate-300">
+                <i class="fa-solid fa-phone text-red-600 pr-2"></i>
+                <p>(+088) 938-752-164</p>
+            </div>
+        </aside>
+        <nav>
+            <header class=" text-xl font-bold text-white">Company</header>
+            <div class="text-base font-medium text-slate-300">
+                <a class="link link-hover">About Us</a><br>
+                <a class="link link-hover">Leadership</a><br>
+                <a class="link link-hover">Careers</a><br>
+                <a class="link link-hover">News&Artical</a><br>
+                <a class="link link-hover">Legal Notice</a>
             </div>
         </nav>
-        <section>
-            <div class="carousel w-full mt-14 relative">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="Images/2.jpg" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div
-                    style="width: 50%;background: black;position: absolute; bottom: 4%;right: 2%;padding: 28px; border-radius: 14px;">
-                    <h4 class="text-white font-extrabold text-2xl">Meet all the heroes from the field</h4>
-                    <p class="text-slate-400 text-base font-medium">Hockey is a term used to denote a family of various
-                        types of both summer
-                        and winter team sports which originated on either an outdoor field</p>
-                </div>
+        <nav>
+            <header class="text-xl font-bold text-white">Support</header>
+            <div class="text-base font-medium text-slate-300">
+                <a class="link link-hover">Help Center</a><br>
+                <a class="link link-hover">FAQ</a><br>
+                <a class="link link-hover">Ticket Support</a><br>
+                <a class="link link-hover">Contact Us</a>
             </div>
-        </section>
-    </header>
-    <main>
-        <!--professional-section-->
-        <section class="mt-11">
-            <div class="text-center mb-10">
-                <h2 class="mb-3 sm:font-extrabold text-2xl lg:font-extrabold text-3xl">Professional Hockeys Club</h2>
-                <p class="text-base font-medium">Hockey is a term used to denote a family of various types of both
-                    summer and winter team sports</p>
+        </nav>
+        <nav>
+            <header class=" text-xl font-bold text-white">Services</header>
+            <div class="text-base font-medium text-slate-300">
+                <a class="link link-hover">Academy</a><br>
+                <a class="link link-hover">Group Lesson</a><br>
+                <a class="link link-hover">Private Lessone</a><br>
+                <a class="link link-hover">Hockeys for kids</a><br>
+                <a class="link link-hover">Hockeys for Adiults</a>
             </div>
-            <div class="flex grid grid-cols-1 lg:grid-cols-4 text-center">
-                <div>
-                    <div class="radial-progress text-primary text-red-500 mb-6" style="--value:87;" role="progressbar">
-                        <span class="text-black">87%</span>
-                    </div>
-                    <h4 class="text-xl font-semibold mb-2">Prayer Facility</h4>
-                    <p class="font-normal text-base mb-10">Some games make the use of skates.</p>
-                </div>
-                <div>
-                    <div class="radial-progress text-primary text-lime-500 mb-6" style="--value:95;" role="progressbar">
-                        <span class="text-black">95%</span>
-                    </div>
-                    <h4 class="text-xl font-semibold mb-2">Experienced Coach</h4>
-                    <p class="font-normal text-base mb-10">Two notable exceptions use a straight stick.</p>
-                </div>
-                <div>
-                    <div class="radial-progress text-primary text-yellow-500 mb-6" style="--value:90;"
-                        role="progressbar"><span class="text-black">90%</span></div>
-                    <h4 class="text-xl font-semibold mb-2">Senior Player</h4>
-                    <p class="font-normal text-base mb-10">Our team have many senior player.</p>
-                </div>
-                <div>
-                    <div class="radial-progress text-primary text-blue-500 mb-6" style="--value:80;" role="progressbar">
-                        <span class="text-black">80%</span>
-                    </div>
-                    <h4 class="text-xl font-semibold mb-2">Training Ground</h4>
-                    <p class="font-normal text-base mb-10">The word hockey itself is of unknown origin.</p>
-                </div>
-            </div>
-        </section>
+        </nav>
+    </footer>
 
-        <!--programme-section-->
-        <section class="text-center mt-14">
-            <div class="mb-10">
-                <h2 class="mb-3 font-extrabold text-3xl">Program Sections</h2>
-                <p class="text-base font-medium">Hockey is a term used to denote a family of various types of both
-                    summer and winter team sports.
-                </p>
-            </div>
-            <div>
-                <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4 rounded-2xl">
-                    <div class="hero  " style="background-image: url(Images/2.png);">
-                        <div class="hero-overlay bg-opacity-60"></div>
-                        <div class="hero-content text-start text-neutral-content">
-                            <div class="max-w-md">
-                                <h1 class="mb-5 mt-14 text-3xl font-bold">Junior Program</h1>
-                                <p class="mb-5">Hockey is a term used to denote a family of various
-                                    types of both summer
-                                    and winter team sports which originated on either an outdoor field</p>
-                                <button class="btn btn-primary mb-5 bg-red-500 border-none text-xl font-bold">Register
-                                    Now!</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hero rounded-3xl " style="background-image: url(Images/3.png); ">
-                        <div class="hero-overlay bg-opacity-60"></div>
-                        <div class="hero-content text-start text-neutral-content">
-                            <div class="max-w-md">
-                                <h1 class="mb-5 mt-14 text-3xl font-bold">Teenager Program</h1>
-                                <p class="mb-5">Hockey is a term used to denote a family of various
-                                    types of both summer
-                                    and winter team sports which originated on either an outdoor field</p>
-                                <button class="btn btn-primary mb-5 bg-red-500 border-none text-xl font-bold">Register
-                                    Now!</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="hero h-full w-full" style="background-image: url(Images/4.png);">
-                        <div class="hero-overlay bg-opacity-60"></div>
-                        <div class="hero-content text-start text-neutral-content">
-                            <div>
-                                <h1 class="mb-5 mt-14 text-3xl font-bold">Professional Program</h1>
-                                <p class="mb-5 w-2/4">Hockey is a term used to denote a family of various
-                                    types of both summer
-                                    and winter team sports which originated on either an outdoor field</p>
-                                <button class="btn btn-primary mb-5 bg-red-500 border-none text-xl font-bold">Register
-                                    Now!</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!--our products-->
-        <section class="mt-28 mb-14">
-            <div class="mb-10 text-center">
-                <h2 class="mb-3 font-extrabold text-3xl">Our New Products</h2>
-                <p class="text-base font-medium">Hockey is a term used to denote a family of various types of both
-                    summer and winter team sports.
-                </p>
-            </div>
-            <div class=" grid grid-cols-1 lg:grid-cols-2">
-
-                <div class="hero  bg-base-200">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-                            <div class="flex gap-4">
-                                <i class="fa-solid fa-star text-orange-500"></i>
-                                <h5>5.0</h5>
-                                <i class="fa-regular fa-eye"></i>
-                                <h5>20</h5>
-                                <i class="fa-regular fa-heart"></i>
-                                <h5>200</h5>
-                            </div>
-                            <h3 class="font-extrabold text-xl">World Cup Football Jacket
-                            </h3>
-                            <p class="py-3">Hockey is a term used to denote a family</p>
-                            <div class="flex gap-4">
-                                <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
-                                <p>
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                    Delivery Fee : Free
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero  bg-base-200">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-                            <div class="flex gap-4">
-                                <i class="fa-solid fa-star text-orange-500"></i>
-                                <h5>5.0</h5>
-                                <i class="fa-regular fa-eye"></i>
-                                <h5>20</h5>
-                                <i class="fa-regular fa-heart"></i>
-                                <h5>200</h5>
-                            </div>
-                            <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
-                            <p class="py-3">Hockey is a term used to denote a family</p>
-                            <div class="flex gap-4">
-                                <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
-                                <p>
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                    Delivery Fee : Free
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero  bg-base-200">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-                            <div class="flex gap-4">
-                                <i class="fa-solid fa-star text-orange-500"></i>
-                                <h5>5.0</h5>
-                                <i class="fa-regular fa-eye"></i>
-                                <h5>20</h5>
-                                <i class="fa-regular fa-heart"></i>
-                                <h5>200</h5>
-                            </div>
-                            <h3 class="font-extrabold text-xl">Cap For World Cup</h3>
-                            <p class="py-3">Hockey is a term used to denote a family</p>
-                            <div class="flex gap-4">
-                                <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
-                                <p>
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                    Delivery Fee : Free
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero  bg-base-200">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-                            <div class="flex gap-4">
-                                <i class="fa-solid fa-star text-orange-500"></i>
-                                <h5>5.0</h5>
-                                <i class="fa-regular fa-eye"></i>
-                                <h5>20</h5>
-                                <i class="fa-regular fa-heart"></i>
-                                <h5>200</h5>
-                            </div>
-                            <h3 class="font-extrabold text-xl">Jursey For World Cup </h3>
-                            <p class="py-3">Hockey is a term used to denote a family</p>
-                            <div class="flex gap-4">
-                                <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
-                                <p>
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                    Delivery Fee : Free
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero bg-base-200">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-                            <div class="flex gap-4">
-                                <i class="fa-solid fa-star text-orange-500"></i>
-                                <h5>5.0</h5>
-                                <i class="fa-regular fa-eye"></i>
-                                <h5>20</h5>
-                                <i class="fa-regular fa-heart"></i>
-                                <h5>200</h5>
-                            </div>
-                            <h3 class="font-extrabold text-xl">Helmate For world Cup</h3>
-                            <p class="py-3">Hockey is a term used to denote a family</p>
-                            <div class="flex gap-4">
-                                <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
-                                <p>
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                    Delivery Fee : Free
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero  bg-base-200">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-                            <div class="flex gap-4">
-                                <i class="fa-solid fa-star text-orange-500"></i>
-                                <h5>5.0</h5>
-                                <i class="fa-regular fa-eye"></i>
-                                <h5>20</h5>
-                                <i class="fa-regular fa-heart"></i>
-                                <h5>200</h5>
-                            </div>
-                            <h3 class="font-extrabold text-xl">Football For World Cup</h3>
-                            <p class="py-3">Hockey is a term used to denote a family</p>
-                            <div class="flex gap-4">
-                                <h4 class="text-red-500 text-lg font-bold">Price - $22.00</h4>
-                                <p>
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                    Delivery Fee : Free
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!--Clients Question-->
-        <section class="mt-28 mb-28">
-            <div class="mb-10 text-center">
-                <h2 class="mb-3 font-extrabold text-3xl">Clients Question</h2>
-                <p class="text-base font-medium">Ask your clients these essential questions to create the best possible
-                    content for their SEO and content marketing campaigns.
-                </p>
-            </div>
-            <div class="hero min-h-screen bg-white">
-                <div class="hero-content flex-col lg:flex-row">
-                    <img src="Images/11.png" class=" rounded-lg shadow-2xl" />
-                    <div>
-                        <div class="collapse collapse-plus bg-white">
-                            <input type="radio" name="my-accordion-3" checked="checked" />
-                            <div class="collapse-title text-xl font-bold">
-                                Our Equipment
-                            </div>
-                            <div class="collapse-content text-base font-normal">
-                                <p>Hockey is a term used to denote a family of various
-                                    types of both summer
-                                    and winter</p>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-plus bg-white">
-                            <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-bold">
-                                Hockey Training
-                            </div>
-                            <div class="collapse-content">
-                                <p>Hockey is a term used to denote a family of various
-                                    types of both summer
-                                    and winter</p>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-plus bg-white">
-                            <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-bold">
-                                Private Lessons
-                            </div>
-                            <div class="collapse-content">
-                                <p>Hockey is a term used to denote a family of various
-                                    types of both summer
-                                    and winter</p>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-plus bg-white">
-                            <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-bold">
-                                Ski Touring
-                            </div>
-                            <div class="collapse-content">
-                                <p>Hockey is a term used to denote a family of various
-                                    types of both summer
-                                    and winter</p>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-plus bg-white">
-                            <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-bold">
-                                Booking
-                            </div>
-                            <div class="collapse-content">
-                                <p>Hockey is a term used to denote a family of various
-                                    types of both summer
-                                    and winter</p>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-plus bg-white">
-                            <input type="radio" name="my-accordion-3" />
-                            <div class="collapse-title text-xl font-bold">
-                                Pricings
-                            </div>
-                            <div class="collapse-content">
-                                <p>Hockey is a term used to denote a family of various
-                                    types of both summer
-                                    and winter</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!--get-in-touch-section-->
-
-        <section>
-            <div class="text-center mb-14">
-                <h2 class="mb-3 font-extrabold text-3xl">Get In Touch</h2>
-                <p class="text-base font-medium">Hockey is a term used to denote a family of various types of both
-                    summer and winter team sports.
-                </p>
-            </div>
-            <div class="gap-7 grid grid-cols-1 lg:grid-cols-3">
-                <div >
-                    <div class="bg-lime-50 p-6 mb-4 rounded-lg">
-                        <img src="Images/Group 1171275317.png" alt="">
-                        <p class="mt-1">Phone Number:</p>
-                        <h5 class="font-semibold mt-1">(+088) 938-752-164</h5>
-                    </div>
-                    <div class="bg-amber-50 p-6 mb-4 rounded-lg">
-                        <img src="Images/Group 1171275318.png" alt="">
-                        <p class="mt-1">Email:</p>
-                        <h5 class="font-semibold mt-1">hockeys@support.com</h5>
-                    </div>
-                    <div class="bg-cyan-50 p-6 rounded-lg ">
-                        <img src="Images/Group 1171275321.png" alt="">
-                        <p class="mt-1">Location:</p>
-                        <h5 class="font-semibold mt-1">152/Mohakhali Wirless Gate</h5>
-                    </div>
-                </div>
-                <div class="lg:col-span-2">
-                    <div class="grid gap-3 grid-cols-1 lg:grid-cols-2">
-                        <div>
-                            <label class="font-bold">Your Name</label>
-                            <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
-                        </div>
-                        <div>
-                            <label  class="font-bold">Your Email</label>
-                            <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
-                        </div>
-                        <div>
-                            <label  class="font-bold">Subject</label>
-                            <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
-                        </div>
-                        <div>
-                            <label  class="font-bold">Phone Number</label>
-                            <input type="text" placeholder="Type here" class=" mt-2 input input-bordered w-full " />
-                        </div>
-
-
-                    </div>
-                    <div class="mt-4">
-                        <label  class="font-bold">Massage</label>
-                        <textarea class="w-full mt-2  textarea textarea-bordered" placeholder="Bio" rows="7"></textarea>
-                    </div>
-                    <button class="btn bg-red-500 mt-3 text-white w-full">Send Massage</button>
-
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer></footer>
 </body>
 
 </html>
