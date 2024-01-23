@@ -39,7 +39,7 @@
 
 </head>
 
-<body class="font-manrope lg:mt-14 mb-24 ml-24 mr-24">
+<body class="font-manrope  sm: mt-0 mb-0 ml-0 mr-0 lg: mt-14 mb-24  ml-24 mr-24">
     <header class="container">
         <nav>
             <div class="navbar bg-base-100">
@@ -100,42 +100,104 @@
                 <div
                     style="width: 50%;background: black;position: absolute; bottom: 4%;right: 2%;padding: 28px; border-radius: 14px;">
                     <h4 class="text-white font-extrabold text-2xl">Meet all the heroes from the field</h4>
-                    <p class="text-zinc-200">Hockey is a term used to denote a family of various types of both summer
+                    <p class="text-slate-400 text-base font-medium">Hockey is a term used to denote a family of various
+                        types of both summer
                         and winter team sports which originated on either an outdoor field</p>
                 </div>
             </div>
         </section>
     </header>
     <main>
-        <section >
-            <div class="text-center">
-                <h2>Professional Hockeys Club</h2>
-                <p>Hockey is a term used to denote a family of various types of both summer and winter team sports</p>
+        <section class="mt-11">
+            <div class="text-center mb-10">
+                <h2 class="mb-3 sm:font-extrabold text-2xl lg:font-extrabold text-3xl">Professional Hockeys Club</h2>
+                <p class="text-base font-medium">Hockey is a term used to denote a family of various types of both
+                    summer and winter team sports</p>
             </div>
-            <div class="flex text-center">
+            <div class="flex grid grid-cols-1 lg:grid-cols-4 text-center">
                 <div>
-                    <div class="radial-progress text-primary" style="--value:87;" role="progressbar">87%</div>
-                    <h4>Prayer Facility</h4>
-                    <p>Some games make the use of skates.</p>
+                    <div class="radial-progress text-primary text-red-500 mb-6" style="--value:87;" role="progressbar">
+                        <span class="text-black">87%</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2">Prayer Facility</h4>
+                    <p class="font-normal text-base mb-10">Some games make the use of skates.</p>
                 </div>
                 <div>
-                    <div class="radial-progress text-primary" style="--value:95;" role="progressbar">95%</div>
-                    <h4>Experienced Coach</h4>
-                    <p>Two notable exceptions use a straight stick.</p>
+                    <div class="radial-progress text-primary text-lime-500 mb-6" style="--value:95;" role="progressbar">
+                        <span class="text-black">95%</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2">Experienced Coach</h4>
+                    <p class="font-normal text-base mb-10">Two notable exceptions use a straight stick.</p>
                 </div>
                 <div>
-                    <div class="radial-progress text-primary" style="--value:90;" role="progressbar">90%</div>
-                    <h4>Senior Player</h4>
-                    <p>Our team have many senior player.</p>
+                    <div class="radial-progress text-primary text-yellow-500 mb-6" style="--value:90;"
+                        role="progressbar"><span class="text-black">90%</span></div>
+                    <h4 class="text-xl font-semibold mb-2">Senior Player</h4>
+                    <p class="font-normal text-base mb-10">Our team have many senior player.</p>
                 </div>
                 <div>
-                    <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
-                    <h4>Training Ground</h4>
-                    <p>The word hockey itself is of unknown origin.</p>
+                    <div class="radial-progress text-primary text-blue-500 mb-6" style="--value:80;" role="progressbar">
+                        <span class="text-black">80%</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2">Training Ground</h4>
+                    <p class="font-normal text-base mb-10">The word hockey itself is of unknown origin.</p>
                 </div>
             </div>
+        </section>
 
-
+        <!--programme-section-->
+        <section class="text-center mt-14">
+            <div class="mb-10">
+                <h2 class="mb-3 font-extrabold text-3xl">Program Sections</h2>
+                <p class="text-base font-medium">Hockey is a term used to denote a family of various types of both
+                    summer and winter team sports
+                </p>
+            </div>
+            <div>
+                <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4 rounded-2xl">
+                    <div class="hero  " style="background-image: url(Images/2.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-start text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-5 mt-14 text-3xl font-bold">Junior Program</h1>
+                                <p class="mb-5">Hockey is a term used to denote a family of various
+                                    types of both summer
+                                    and winter team sports which originated on either an outdoor field</p>
+                                <button class="btn btn-primary mb-5 bg-red-500 border-none text-xl font-bold">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero rounded-3xl " style="background-image: url(Images/3.png); ">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-start text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-5 mt-14 text-3xl font-bold">Teenager Program</h1>
+                                <p class="mb-5">Hockey is a term used to denote a family of various
+                                    types of both summer
+                                    and winter team sports which originated on either an outdoor field</p>
+                                <button class="btn btn-primary mb-5 bg-red-500 border-none text-xl font-bold">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="hero h-full w-full" style="background-image: url(Images/4.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-start text-neutral-content">
+                            <div>
+                                <h1 class="mb-5 mt-14 text-3xl font-bold">Professional Program</h1>
+                                <p class="mb-5 w-2/4">Hockey is a term used to denote a family of various
+                                    types of both summer
+                                    and winter team sports which originated on either an outdoor field</p>
+                                <button class="btn btn-primary mb-5 bg-red-500 border-none text-xl font-bold">Register
+                                    Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
     </main>
